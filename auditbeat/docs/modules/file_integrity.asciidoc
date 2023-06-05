@@ -19,7 +19,7 @@ This module uses features of the operating system to monitor file changes in
 realtime. When the module starts it creates a subscription with the OS to
 receive notifications of changes to the specified files or directories. Upon
 receiving notification of a change the module will read the file's metadata
-and the compute a hash of the file's contents.
+and then compute a hash of the file's contents.
 
 At startup this module will perform an initial scan of the configured files
 and directories to generate baseline data for the monitored paths and detect
